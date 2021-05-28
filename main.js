@@ -18,5 +18,3 @@ const data = fetch("https://api.alternative.me/fng/")
       data.data[0].time_until_update / 3600
     ).toFixed(2)} hours away.`;
   });
-
-console.log(data);
